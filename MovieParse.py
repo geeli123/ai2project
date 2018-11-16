@@ -1,4 +1,8 @@
 import pandas as pd
+import numpy as np
+
+genres = {'action', 'horror', 'comedy', 'drama'}
 
 def getData(path):
-    return pd.read_csv(path).values
+    df = pd.read_csv(path)
+    return df[df.Genres.isin(genres)]
