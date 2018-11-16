@@ -18,5 +18,3 @@ def transform_data(raw_data):
       sentences[i] = tokens
     summaries[ind] = sentences
   return genres, summaries
-
-print transform_data(raw_data)
