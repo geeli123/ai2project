@@ -1,0 +1,180 @@
+-----
+max depth: 3, eta: 0.05, min_child_weight: 1
+precision: 0.6231507339083191
+recall: 0.5984042553191489
+f1 score: : 0.598546692904666
+-----
+max depth: 3, eta: 0.05, min_child_weight: 3
+precision: 0.6181385171253071
+recall: 0.5890957446808511
+f1 score: : 0.589662645239105
+-----
+max depth: 3, eta: 0.05, min_child_weight: 5
+precision: 0.6131205807202791
+recall: 0.5877659574468085
+f1 score: : 0.5880112858974085
+-----
+max depth: 3, eta: 0.1, min_child_weight: 1
+precision: 0.6329111295681064
+recall: 0.6143617021276596
+f1 score: : 0.6134615384615385
+-----
+max depth: 3, eta: 0.1, min_child_weight: 3
+precision: 0.6219145468540141
+recall: 0.6037234042553191
+f1 score: : 0.6024935879336819
+-----
+max depth: 3, eta: 0.1, min_child_weight: 5
+precision: 0.62095073011871
+recall: 0.5997340425531915
+f1 score: : 0.5996208457822507
+-----
+max depth: 3, eta: 0.2, min_child_weight: 1
+precision: 0.6614610567969041
+recall: 0.6436170212765958
+f1 score: : 0.6459467749040149
+-----
+max depth: 3, eta: 0.2, min_child_weight: 3
+precision: 0.6481381703140825
+recall: 0.6289893617021277
+f1 score: : 0.6305188057597227
+-----
+max depth: 3, eta: 0.2, min_child_weight: 5
+precision: 0.6487909799064624
+recall: 0.6263297872340425
+f1 score: : 0.6284562207817824
+-----
+max depth: 3, eta: 0.3, min_child_weight: 1
+precision: 0.6762786918638919
+recall: 0.660904255319149
+f1 score: : 0.6636938863024348
+-----
+max depth: 3, eta: 0.3, min_child_weight: 3
+precision: 0.666474520445944
+recall: 0.6542553191489362
+f1 score: : 0.6553671415509061
+-----
+max depth: 3, eta: 0.3, min_child_weight: 5
+precision: 0.6623447916751115
+recall: 0.648936170212766
+f1 score: : 0.6513537342402516
+-----
+max depth: 5, eta: 0.05, min_child_weight: 1
+precision: 0.6228709463249044
+recall: 0.6063829787234043
+f1 score: : 0.6053240917821321
+-----
+max depth: 5, eta: 0.05, min_child_weight: 3
+precision: 0.6232375845163751
+recall: 0.6063829787234043
+f1 score: : 0.6044599418935905
+-----
+max depth: 5, eta: 0.05, min_child_weight: 5
+precision: 0.6176477603064319
+recall: 0.6010638297872339
+f1 score: : 0.5996525681227113
+-----
+max depth: 5, eta: 0.1, min_child_weight: 1
+precision: 0.6429690424549002
+recall: 0.6263297872340425
+f1 score: : 0.6274881403156156
+-----
+max depth: 5, eta: 0.1, min_child_weight: 3
+precision: 0.6438874363029898
+recall: 0.6303191489361702
+f1 score: : 0.6284783780149124
+-----
+max depth: 5, eta: 0.1, min_child_weight: 5
+precision: 0.6433610226998989
+recall: 0.6276595744680851
+f1 score: : 0.6282551060228464
+-----
+max depth: 5, eta: 0.2, min_child_weight: 1
+precision: 0.6651419075813141
+recall: 0.6515957446808511
+f1 score: : 0.6531711058001088
+-----
+max depth: 5, eta: 0.2, min_child_weight: 3
+precision: 0.6630712365037402
+recall: 0.6502659574468085
+f1 score: : 0.6514439870793294
+-----
+max depth: 5, eta: 0.2, min_child_weight: 5
+precision: 0.6562107325576209
+recall: 0.6436170212765957
+f1 score: : 0.6460015823611954
+-----
+max depth: 5, eta: 0.3, min_child_weight: 1
+precision: 0.6536644986930196
+recall: 0.6476063829787234
+f1 score: : 0.6475589902234633
+-----
+max depth: 5, eta: 0.3, min_child_weight: 3
+precision: 0.6647904236625177
+recall: 0.6555851063829787
+f1 score: : 0.6572254850912752
+-----
+max depth: 5, eta: 0.3, min_child_weight: 5
+precision: 0.6669009587246044
+recall: 0.6569148936170213
+f1 score: : 0.6582568011691139
+-----
+max depth: 7, eta: 0.05, min_child_weight: 1
+precision: 0.6189717616872498
+recall: 0.6090425531914894
+f1 score: : 0.6078731509007604
+-----
+max depth: 7, eta: 0.05, min_child_weight: 3
+precision: 0.6349525725463796
+recall: 0.6223404255319149
+f1 score: : 0.6201892527863341
+-----
+max depth: 7, eta: 0.05, min_child_weight: 5
+precision: 0.6196011281224818
+recall: 0.6077127659574468
+f1 score: : 0.6065165831553981
+-----
+max depth: 7, eta: 0.1, min_child_weight: 1
+precision: 0.6469028778239304
+recall: 0.6396276595744681
+f1 score: : 0.6386620409985106
+-----
+max depth: 7, eta: 0.1, min_child_weight: 3
+precision: 0.661506389847659
+recall: 0.6462765957446809
+f1 score: : 0.6470548978447215
+-----
+max depth: 7, eta: 0.1, min_child_weight: 5
+precision: 0.650204873090251
+recall: 0.6369680851063829
+f1 score: : 0.6366588953204434
+-----
+max depth: 7, eta: 0.2, min_child_weight: 1
+precision: 0.6505494900231742
+recall: 0.6422872340425532
+f1 score: : 0.6436782345555871
+-----
+max depth: 7, eta: 0.2, min_child_weight: 3
+precision: 0.6702902206080172
+recall: 0.6622340425531915
+f1 score: : 0.6630757390013918
+-----
+max depth: 7, eta: 0.2, min_child_weight: 5
+precision: 0.6768912331656252
+recall: 0.6688829787234042
+f1 score: : 0.6702127713419134
+-----
+max depth: 7, eta: 0.3, min_child_weight: 1
+precision: 0.6773528761874552
+recall: 0.6715425531914894
+f1 score: : 0.6732858815617185
+-----
+max depth: 7, eta: 0.3, min_child_weight: 3
+precision: 0.6685229419214632
+recall: 0.660904255319149
+f1 score: : 0.663628543812636
+-----
+max depth: 7, eta: 0.3, min_child_weight: 5
+precision: 0.688496557666673
+recall: 0.6808510638297871
+f1 score: : 0.6828996777272314

@@ -8,4 +8,4 @@ def getData(path):
     return df[df.Genres.isin(genres)]
 
 def getSample(df, genre, k):
-    return df[df.Genres.isin([genre])].sample(n=k)
+    return df[df.Genres.isin([genre])].sample(n=k).values
