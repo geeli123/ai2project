@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import precision_score, recall_score, f1_score
 from gensim.models import Word2Vec
+import matplotlib.pyplot as plt
 from words import *
 import MovieParse
 
@@ -56,12 +57,12 @@ def create_data_and_save(genre_file_name, words_file_name):
 
     model = Word2Vec.load('word2vec.model')
 
-    """
     max = 0
     for summ in summaries:
         if max < len(summ):
             max = len(summ)
 
+    """
     min = 1425
     for summ in summaries:
         if min > len(summ):
@@ -76,7 +77,7 @@ def create_data_and_save(genre_file_name, words_file_name):
     print(dictionary)
     """
 
-    word_limit = 75
+    word_limit = 200
     input_data = np.zeros((len(summaries),word_limit, 25))
     #input_data = np.zeros((len(summaries),max, 25))
 
@@ -110,7 +111,8 @@ if __name__ == '__main__':
     lstm_model = make_lstm(X_train.shape[1:])
 
     lstm_model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-    lstm_model.fit(X_train, Y_train, epochs=50, batch_size=100)
+    #history = lstm_model.fit(X_train, Y_train, epochs=1, batch_size=100)
+    history = lstm_model.fit(X_train, Y_train, epochs=35, batch_size=100, validation_split=0.2)
 
     predictions = lstm_model.predict(X_test)
 
@@ -131,3 +133,24 @@ if __name__ == '__main__':
     print('precision: ' + str(precision_score(Y_test, best_preds, average='macro')))
     print('recall: ' + str(recall_score(Y_test, best_preds, average='macro')))
     print('f1 score: : ' + str(f1_score(Y_test, best_preds, average='macro')))
+
+    print(history.history.keys())
+    # summarize history for accuracy
+    plt.figure(1)
+    plt.plot(history.history['acc'])
+    plt.plot(history.history['val_acc'])
+    plt.title('model accuracy')
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    #plt.show()
+    # summarize history for loss
+    plt.figure(2)
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'test'], loc='upper left')
+    plt.show()
+    
